@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <table >
+        <thead>
+         <h1>Registration Form</h1> 
+        </thead>
+        <tr>
+          <th>
+            <label for="firstName">First Name:</label>
+          </th>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter Your First Name"
+              id="firstName"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="lastName">Last Name:</label>
+          </th>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter Your last Name"
+              id="lastName"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="userName">UserName:</label>
+          </th>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter Your UserName:"
+              id="userName"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="password">Password:</label>
+          </th>
+          <td>
+            <input type="password" placeholder="Enter Password" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <th>Gender:</th>
+          <td>
+            <select name="gender" id="gender-select">
+              <option value="">--Gender--</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="email">E-mail:</label>
+          </th>
+          <td>
+            <input type="email" placeholder="Enter E-mail" id="email" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="phone">Mobile Number:</label>
+          </th>
+          <td>
+            <input type="number" placeholder="Mobile Number" id="phone" />
+          </td>
+        </tr>
+        <tr>
+          <th>Language:</th>
+          <td>
+            <input type="checkbox" name="English" id="lang" />
+            <label for="lang">English</label>
+          </td>
+          <td>
+            <input type="checkbox" name="English" id="lang" />
+            <label for="lang">English</label>
+          </td>
+          <td>
+            <input type="checkbox" name="English" id="lang" />
+            <label for="lang">English</label>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="date">Date Of Birth</label>
+          </th>
+          <td>
+            <input type="date" id="date" />
+          </td>
+        </tr>
+        <tr>
+          <th>Description :</th>
+          <td>
+            <textarea name="desc" id="desc" cols="30" rows="8"></textarea>
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Submit</button>
+      <button type="reset">Erase</button>
+    </form>
+  </body>
+</html>

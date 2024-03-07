@@ -1,0 +1,22 @@
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+.headerSection {
+  height: 100dvh;
+  background-image: url(images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+
+.text {
+  width: 35%;
+  border-radius: 5px;
+  padding: 20px;
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  margin-left: 50%;
+  background-color: rgba(0, 0, 0, 0.442);
+}
