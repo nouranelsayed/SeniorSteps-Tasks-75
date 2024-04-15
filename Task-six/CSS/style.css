@@ -70,7 +70,7 @@
   
   .settingsDiv {
     width: 16%;
-    height: 469px;
+    height: 500px;
     font-family: var(--standard-font);
     padding: 9px;
     /* border: 1px solid; */
@@ -588,7 +588,6 @@ font-weight:600 ;
   }
   
   .footerP {
-    margin: auto;
     color: rgb(172, 172, 172);
     font-family: var(--standard-font);
     font-size: 11px;
