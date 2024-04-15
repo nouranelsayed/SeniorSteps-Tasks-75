@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-6</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://demo.mekshq.com/vlog/wp-content/themes/vlog/assets/img/vlog_logo@2x.png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MODULES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">POSTS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">ARCCHIEVES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PAGES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MEGA MENUE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FEATURE</a>
+            </li>
+          </ul>
+          <div class="nav-icons">
+            <i class="fa-solid fa-magnifying-glass navIcon"></i>
+            <i class="fa-solid fa-display navIcon"></i>
+            <i class="fa-solid fa-share-nodes navIcon"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="settingbtn">
+        <div class="settingsIcon">
+          <i class="fa-solid fa-gear settingIcon"></i>
+        </div>
+        <div class="sttingcontent">
+          <div class="settingsDiv">
+            <span class="settingTitle">DEMO EXAMPLES</span>
+           <button class="exitBtn" id="exitBtn" onclick=""><i class="fa-solid fa-xmark"></i></button>
+            <p class="settingP">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="demoImg"></div>
+            <input type="checkbox" name="RTL" id="RTL" />
+            <label for="RTL" class="check">RTL (Right to left) mode </label>
+            <h4 class="demohead">REAL LIFE EXAMPLE</h4>
+            <p class="demoP">
+              <a href="https://mekshq.com/websites/vlog/" class="linkSpan"
+                >Click here</a
+              >
+              Lorem ipsum dolor sit amet consectetur .
+            </p>
+
+            <div class="demoBtns">
+              <button type="button" class="demoBtn one">
+                <i class="fa-solid fa-cart-shopping"></i> Buy Now!
+              </button>
+              <button type="button" class="demoBtn two">
+                <i class="fa-solid fa-rocket"></i> Lorem, ipsum dolor.
+              </button>
+              <button type="button" class="demoBtn three">
+                <i class="fa-solid fa-comment"></i> Lorem, ipsum dolor.
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <header class="headerSection">
+      <div class="container-fluid">
+        <div class="headerImgSection">
+          <img
+            src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog015-1500x500.jpg"
+            alt="image"
+          />
+          <div class="playIcon display">
+            <i class="fa-regular fa-circle-play play-Icon"></i>
+          </div>
+          <div class="next-arrow display">
+            <i class="fa-solid fa-chevron-right nextArrow"></i>
+          </div>
+          <div class="previous-arrow display">
+            <i class="fa-solid fa-chevron-left previousArrow"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="travel start-50 translate-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="col-content">
+              <span class="travelSpan">TRAVEL</span>
+              <p class="travelP fw-bolder">
+                These 7 thing will change the way you <br />approach travel
+              </p>
+              <span class="author">Camillia Huffman / 4 weeks ago</span>
+            </div>
+          </div>
+          <div class="col-md-5 align-content-center">
+            <div class="travelIcons d-flex">
+              <div class="comment iconsDisplay">
+                <i class="fa-regular fa-message travelIcon travelIconOne"></i>
+                <h5 class="iconTitle">3 Comments</h5>
+              </div>
+              <div class="displayIcon iconsDisplay">
+                <i class="fa-solid fa-display travelIcon travelIconTwo"></i>
+                <h5 class="iconTitle">Watch Later</h5>
+              </div>
+              <div class="fullScreen iconsDisplay">
+                <i class="fa-solid fa-expand travelIcon travelIconThree"></i>
+                <h5 class="iconTitle">Cinema Mode</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="features">
+      <div class="container">
+        <div class="row p-2">
+          <h2 class="SectionTitle fw-bold fs-4 mb-3">FEATURED PLAYLIST</h2>
+          <div class="col-md-4">
+            <div class="features-card">
+              <div class="card" style="width: 20rem; border: none">
+                <div
+                  class="imgFeatuersContainer d-inline-block position-relative"
+                >
+                  <img
+                    src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog009-344x193.jpg"
+                    class="featuresImg"
+                    alt="..."
+                  />
+                  <i id="imgIcon" class="fa-regular fa-circle-play imgIcon"></i>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text fw-bolder fs-5 mb-1">
+                    Amazing stories from around the globel.
+                  </p>
+                  <div class="cardSpans">
+                    <span
+                      class="imgSpanNum d-inline-block text-white text-center"
+                      >6</span
+                    >
+                    <span class="imgspan">Videos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="features-card">
+              <div class="card" style="width: 20rem; border: none">
+                <div
+                  class="imgFeatuersContainer d-inline-block position-relative"
+                >
+                  <img
+                    src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog011-344x193.jpg"
+                    class="featuresImg"
+                    alt="..."
+                  />
+                  <i id="imgIcon" class="fa-regular fa-circle-play imgIcon"></i>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text fw-bolder fs-5 mb-1">
+                    Amazing stories from around the globel.
+                  </p>
+                  <div class="cardSpans">
+                    <span
+                      class="imgSpanNum d-inline-block text-white text-center"
+                      >6</span
+                    >
+                    <span class="imgspan">Videos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="features-card">
+              <div class="card" style="width: 20rem; border: none">
+                <div
+                  class="imgFeatuersContainer d-inline-block position-relative"
+                >
+                  <img
+                    src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog012-344x193.jpg"
+                    class="featuresImg"
+                    alt="..."
+                  />
+                  <i id="imgIcon" class="fa-regular fa-circle-play imgIcon"></i>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text fw-bolder fs-5 mb-1">
+                    Amazing stories from around the globel.
+                  </p>
+                  <div class="cardSpans">
+                    <span
+                      class="imgSpanNum d-inline-block text-white text-center"
+                      >6</span
+                    >
+                    <span class="imgspan">Videos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="features-card">
+              <div class="card" style="width: 20rem; border: none">
+                <div
+                  class="imgFeatuersContainer d-inline-block position-relative"
+                >
+                  <img
+                    src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog013-344x193.jpg"
+                    class="featuresImg"
+                    alt="..."
+                  />
+                  <i id="imgIcon" class="fa-regular fa-circle-play imgIcon"></i>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text fw-bolder fs-5 mb-1">
+                    Amazing stories from around the globel.
+                  </p>
+                  <div class="cardSpans">
+                    <span
+                      class="imgSpanNum d-inline-block text-white text-center"
+                      >6</span
+                    >
+                    <span class="imgspan">Videos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="features-card">
+              <div class="card" style="width: 20rem; border: none">
+                <div
+                  class="imgFeatuersContainer d-inline-block position-relative"
+                >
+                  <img
+                    src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog004-344x193.jpg"
+                    class="featuresImg"
+                    alt="..."
+                  />
+                  <i id="imgIcon" class="fa-regular fa-circle-play imgIcon"></i>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text fw-bolder fs-5 mb-1">
+                    Amazing stories from around the globel.
+                  </p>
+                  <div class="cardSpans">
+                    <span
+                      class="imgSpanNum d-inline-block text-white text-center"
+                      >6</span
+                    >
+                    <span class="imgspan">Videos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="features-card">
+              <div class="card" style="width: 20rem; border: none">
+                <div
+                  class="imgFeatuersContainer d-inline-block position-relative"
+                >
+                  <img
+                    src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog007-344x193.jpg"
+                    class="featuresImg"
+                    alt="..."
+                  />
+                  <i id="imgIcon" class="fa-regular fa-circle-play imgIcon"></i>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text fw-bolder fs-5 mb-1">
+                    Amazing stories from around the globel.
+                  </p>
+                  <div class="cardSpans">
+                    <span
+                      class="imgSpanNum d-inline-block text-white text-center"
+                      >6</span
+                    >
+                    <span class="imgspan">Videos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="volg">
+      <div class="vlogtxt">
+        <h2 class="vlogTitle">You Will Love Vlog</h2>
+        <p class="vlogText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          quisquam, <br />placeat voluptatem corporis consectetur quidem sint
+          ipsam obcaecati animi! Nulla <br />fugit earum exercitationem voluptas
+          magni. Provident, molestiae eos sequi veritatis placeat delectus
+          ipsa<br />
+          impedit tempore cupiditate a fugit beatae culpa optio quod repellat
+          quo<br />
+          dolore repellendus repudiandae ab? Magnam, molestiae?
+        </p>
+        <button class="vlogBtn" type="submit">PURCHASE NOW</button>
+      </div>
+    </section>
+
+    <section class="latestVideo mt-5">
+      <div class="container">
+        <h2 class="SectionTitle fw-bold fs-5 mb-3">LATEST VIDEO</h2>
+        <div class="row ">
+            <div class="col-md-9">
+                <div class="latestCard mb-5">
+                    <div class="row">
+                      <div class="col-md-8 pictureList me-0 pe-0">
+                        <div class="latest-videoCardImg position-relative">
+                          <img
+                            id="galleryimg"
+                            src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog014-366x205.jpg "
+                            class="galleryimg"
+                            alt="img"
+                          />
+                          <div class="galleryImgSpans position-absolute">
+                            <span class="gallerySpan">Gallery</span>
+                            <span class="gallerySpantwo">HD</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 pictureTxt ms-0 ps-0">
+                        <div class="latestVideoTxt">
+                          <span class="txtSpan"> TECHNOLOGY </span>
+                          <h3 class="txtHead">
+                            Lorem ipsum dolor sit amet consectetur.
+                          </h3>
+                          <span class="txtSpantwo"> 6 days ago / 3 comments </span>
+                          <p class="txtP">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sapiente delectus illum non debitis. Quaerat ad esse qui
+                            omnis voluptatibus amet fuga
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="latestCard mb-5">
+                    <div class="row">
+                      <div class="col-md-8 pictureList me-0 pe-0">
+                        <div class="latest-videoCardImg position-relative">
+                          <img
+                            id="galleryimg"
+                            src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/05/vlog048-366x205.jpg"
+                            class="galleryimg"
+                            alt="img"
+                          />
+                          <div class="galleryImgSpans position-absolute">
+                            <span class="gallerySpan">Gallery</span>
+                            <span class="gallerySpantwo">HD</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 pictureTxt ms-0 ps-0">
+                        <div class="latestVideoTxt">
+                          <span class="txtSpan"> TECHNOLOGY </span>
+                          <h3 class="txtHead">
+                            Lorem ipsum dolor sit amet consectetur.
+                          </h3>
+                          <span class="txtSpantwo"> 6 days ago / 3 comments </span>
+                          <p class="txtP">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sapiente delectus illum non debitis. Quaerat ad esse qui
+                            omnis voluptatibus amet fuga
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="latestCard mb-5">
+                    <div class="row">
+                      <div class="col-md-8 pictureList me-0 pe-0">
+                        <div class="latest-videoCardImg position-relative">
+                          <img
+                            id="galleryimg"
+                            src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog040-366x205.jpg"
+                            class="galleryimg"
+                            alt="img"
+                          />
+                          <div class="galleryImgSpans position-absolute">
+                            <span class="gallerySpan">Gallery</span>
+                            <span class="gallerySpantwo">HD</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 pictureTxt ms-0 ps-0">
+                        <div class="latestVideoTxt">
+                          <span class="txtSpan"> TECHNOLOGY </span>
+                          <h3 class="txtHead">
+                            Lorem ipsum dolor sit amet consectetur.
+                          </h3>
+                          <span class="txtSpantwo"> 6 days ago / 3 comments </span>
+                          <p class="txtP">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sapiente delectus illum non debitis. Quaerat ad esse qui
+                            omnis voluptatibus amet fuga
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="latestCard mb-5">
+                    <div class="row">
+                      <div class="col-md-8 pictureList me-0 pe-0">
+                        <div class="latest-videoCardImg position-relative">
+                          <img
+                            id="galleryimg"
+                            src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog037-366x205.jpg "
+                            class="galleryimg"
+                            alt="img"
+                          />
+                          <div class="galleryImgSpans position-absolute">
+                            <span class="gallerySpan">Gallery</span>
+                            <span class="gallerySpantwo">HD</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 pictureTxt ms-0 ps-0">
+                        <div class="latestVideoTxt">
+                          <span class="txtSpan"> TECHNOLOGY </span>
+                          <h3 class="txtHead">
+                            Lorem ipsum dolor sit amet consectetur.
+                          </h3>
+                          <span class="txtSpantwo"> 6 days ago / 3 comments </span>
+                          <p class="txtP">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sapiente delectus illum non debitis. Quaerat ad esse qui
+                            omnis voluptatibus amet fuga
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="latestCard mb-5">
+                    <div class="row">
+                      <div class="col-md-8 pictureList me-0 pe-0">
+                        <div class="latest-videoCardImg position-relative">
+                          <img
+                            id="galleryimg"
+                            src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog008-366x205.jpg "
+                            class="galleryimg"
+                            alt="img"
+                          />
+                          <div class="galleryImgSpans position-absolute">
+                            <span class="gallerySpan">Gallery</span>
+                            <span class="gallerySpantwo">HD</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 pictureTxt ms-0 ps-0">
+                        <div class="latestVideoTxt">
+                          <span class="txtSpan"> TECHNOLOGY </span>
+                          <h3 class="txtHead">
+                            Lorem ipsum dolor sit amet consectetur.
+                          </h3>
+                          <span class="txtSpantwo"> 6 days ago / 3 comments </span>
+                          <p class="txtP">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sapiente delectus illum non debitis. Quaerat ad esse qui
+                            omnis voluptatibus amet fuga
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+              <div class="col-md-3 d-inline-block">
+                <div class="categoriesDivs">
+                  <div class="categoriesDiv">
+                    <h2 class="categoHead">CATEGORIES</h2>
+                    <div class="categorySpans">
+                      <div class="categItem">
+                        <span class="categSpan display">7</span>
+                        <h4 class="categItemH display">Entertainment</h4>
+                      </div>
+                      <div class="categItem">
+                        <span class="categSpan display">7</span>
+                        <h4 class="categItemH display">Entertainment</h4>
+                      </div>
+                      <div class="categItem">
+                        <span class="categSpan display">7</span>
+                        <h4 class="categItemH display">Entertainment</h4>
+                      </div>
+                      <div class="categItem">
+                        <span class="categSpan display">7</span>
+                        <h4 class="categItemH display">Entertainment</h4>
+                      </div>
+                      <div class="categItem">
+                        <span class="categSpan display">7</span>
+                        <h4 class="categItemH display">Entertainment</h4>
+                      </div>
+                      <div class="categItem">
+                        <span class="categSpan display">7</span>
+                        <h4 class="categItemH display">Entertainment</h4>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="submitDiv">
+                    <h4 class="submitTitle">SUBMIT YOUR VIDEO</h4>
+                    <p class="submitP">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dignissimos totam culpa consequuntur qui unde vero.
+                    </p>
+                    <button class="submitBtn" type="submit">
+                      Submit Your Video
+                    </button>
+                  </div>
+                </div>
+              </div>
+         
+          
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination ms-5">
+                    
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">.......</a></li>
+                      <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    </ul>
+                  </nav>
+            </div>
+            <div class="col-md-4">
+                <div class="pageBtn">
+                    <button class="btn pagebutton" type="button">NEXT</button>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="footerSection mt-5 p-5">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                <div class="footerTxt">
+                    <img
+                    class="footerlogoImg mb-4 w-25"
+                    src="https://mekshq.com/static/vlog/vlog_logo_invert@2x.png"
+                    alt="logo"
+                    srcset=""
+                  />
+                  <p class="aboutP mb-3">
+                    Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Distinctio
+                    ab repudiandae vero,<br> non consequuntur magni deleniti incidunt alias <br>
+                    neque dolor velit inventore architecto <br>quod hic voluptas optio sequi
+                    doloremque quasi. Laudantium similique 
+                  </p>
+        
+                  <button class="footerBtn mt-2" type="button">FIND OUT MORE</button>
+                </div>
+               </div>
+         
+               <div class="col-md-4">
+                <h4 class="text-white footerTitle mb-4">MOST VIEWED</h4>
+                <div class="middleContent mb-4 d-flex ">
+                    <div class="contentImg me-2">
+                      <img
+                        src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog015-125x83.jpg"
+                        alt="img"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="content">
+                      <p class="imgcont">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam, autem?
+                      </p>
+                      <span class="contenSpan"> 21,456 views</span>
+                    </div>
+                  </div>
+                  <div class="middleContent mb-4 d-flex ">
+                    <div class="contentImg me-2">
+                      <img
+                        src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog001-125x83.jpg"
+                        alt="img"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="content">
+                      <p class="imgcont">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam, autem?
+                      </p>
+                      <span class="contenSpan"> 21,456 views</span>
+                    </div>
+                  </div>
+                  <div class="middleContent d-flex ">
+                    <div class="contentImg me-2">
+                      <img
+                        src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/05/vlog048-125x83.jpg"
+                        alt="img"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="content">
+                      <p class="imgcont">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam, autem?
+                      </p>
+                      <span class="contenSpan"> 21,456 views</span>
+                    </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                <h4 class="text-white footerTitle mb-4">MOST DISCUSSED</h4>
+                <div class="middleContent mb-4 d-flex ">
+                    <div class="contentImg me-2">
+                      <img
+                        src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog023-125x83.jpg"
+                        alt="img"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="content">
+                      <p class="imgcont">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam, autem?
+                      </p>
+                      <span class="contenSpan"> 21,456 views</span>
+                    </div>
+                  </div>
+                  <div class="middleContent mb-4 d-flex ">
+                    <div class="contentImg me-2">
+                      <img
+                        src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog022-125x83.jpg"
+                        alt="img"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="content">
+                      <p class="imgcont">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam, autem?
+                      </p>
+                      <span class="contenSpan"> 21,456 views</span>
+                    </div>
+                  </div>
+                  <div class="middleContent d-flex ">
+                    <div class="contentImg me-2">
+                      <img
+                        src="https://mksdmcdn-9b59.kxcdn.com/vlog/wp-content/uploads/2016/04/vlog006-125x83.jpg"
+                        alt="img"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="content">
+                      <p class="imgcont">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam, autem?
+                      </p>
+                      <span class="contenSpan"> 21,456 views</span>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" >
+        
+      <div class="footer">
+        <p class="footerP">
+          COPYRIGHT © 2024. CREATED BY MEKS. POWERED BY
+          <span class="footerSpan"> WORDPRESS</span>.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
